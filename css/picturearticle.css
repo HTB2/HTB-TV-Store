@@ -1,0 +1,54 @@
+.poster-sec-wrap {
+	width: 100%;
+}
+.poster-sec {
+	width: 87%;
+	margin: 3em auto;
+	text-align: left;
+}
+.poster-middle{
+    grid-template-columns: repeat(4,1fr);
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	grid-template-rows: auto;
+	grid-row-gap: 5px;
+	grid-column-gap: 20px;
+	padding: 0px 70px 0px 70px;
+}
+.poster-wrap {
+    display: inline;
+    cursor: pointer;
+}
+.poster{
+    display: block;
+    margin: .0em;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    opacity: 1;
+    transition: opacity .1s ease-in-out;
+}
+.poster-info {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    padding: .4em;
+}
+.poster-title {
+    font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin: 0 0 0 0;
+    font-size: 1.5em;
+}
+.poster-sold-out {
+    font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: red;
+    text-align: center;
+    margin: 2 0 0 0;
+    font-size: 1em;
+}
